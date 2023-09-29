@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* div {
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    border: solid 5px;
+    padding: 10px 30px 60px 100px;
+    margin: 150px auto; 
+    text-align: justify;
+} */
+html {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+}
+
+body{
+    margin: 0%;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOjQUoOD0UqD7c7Mm0-CH7K3MD4yziwaWexg&usqp=CAU);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+main {
+}
+footer {
+    padding: 20px 150px;
+}
+.about {
+    text-align: center;
+    padding: 20px 100px;
+    /* color: red;
+    border: 5px red solid;*/
+}
+.about-text {
+    font-size: 1rem;
+    text-align: justify;
+    color: #000;
+}
+.articles {
+    text-align: center;
+    padding: 20px 100px;
+}
+.avatarka {
+    width: 90px;
+    border-radius: 90px;
+}
+h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: black;
+}
+h2 {
+    font-size: 1.5rem;
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+.list-articles{
+    text-align: left;
+}
+.main-menu{
+    list-style: none;
+    padding-left: 0;
+}
+.header_article{
+    text-align: center;
+    margin: 0;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: black;
+}
+.article1_text2{
+    font-size: 1rem;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.article1_text{
+    font-size: 1rem;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #000;
+}
+.subtitle10{
+    border-bottom: 1px solid #000;
+    font-size: 1rem;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+.html-logo{
+    text-align: center;
+}
+.header_article2{
+    text-align: center;
+    margin: 0;
+}
+.article2_text1{
+    font-size: 1rem;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.article2_text2{
+    font-size: 1rem;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.subtitle{
+    border-bottom: 1px solid #000;
+    font-size: 1rem;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.article1_text3{
+    font-size: 1rem;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.article1_text4{
+    font-size: 1rem;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.article1_text5{
+    font-size: 1rem;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.subtitle1{
+    border-bottom: 1px solid #000;
+    font-size: 1rem;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.article1_text6{
+    font-size: 1rem;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.content_block_title{
+    font-size: 1rem;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer_logo{
+    width: 20px;
+    height: 20px;
+}
+.footer_logo_link{
+    margin-right: 10px;
+}
+.subtitle2{
+    border-bottom: 1px solid #000;
+    font-size: 1rem;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.atom_logo{
+    width: 40px;
+    height: 40px;
+}
+.subtitle3{
+    border-bottom: 1px solid #000;
+    font-size: 1rem;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.vs_logo{
+    width: 140px;
+    height: 140px;
+}
+.subtitle4{
+    border-bottom: 1px solid #000;
+    font-size: 1rem;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.notepad_logo{
+    width: 140px;
+    height: 140px;
+}
+a:link{
+    color: green;
+}
+a:visited{
+    color: red;
+}
+a:active{
+    color: gray;
+}
+a:hover{
+    color: orange;
+}
+a:focus{
+    color: purple;
+}
+/*.list-articles li:nth-child(2) {
+background-color: blue;
+}*/
+
+p:lang(en) {
+    font-style: italic;
+    /* color: aqua; */
+}
+.main-menu li::after{
+content: "Zyavl";
+margin-left: 5px;
+font-size: 20px;
+color: blue;
+}
+
+.main-menu li{
+    position: relative;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.main-menu li::before{
+    position: absolute;
+    content: "";
+    display: block;
+    top: 0;
+    width: 0;
+    height: 2px;
+    background-color: brown;
+}
+.main-menu li:hover::before {
+    width: 100%;
+    transition: 0.3s;
+}
+.list-articles li{
+    position: relative;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+.list-articles li:first-child::after{
+    content: "Важно!";
+    margin-left: 6px;
+    font-size: 21px;
+    color: red;
+}
+.list-articles li::before{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: purple;
+    border-radius: 2px;
+    transition: 1s;
+}
+.list-articles li:hover::before{
+    width: 33%;
+}
+.list-articles li:nth-child(2n+1){
+    background-color: blueviolet;
+}
+.article1_text:first-line {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 90%; 
+    color: black; }
+.about-text::first-line{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 90%; 
+    color: black;
+}
+q:lang(en){
+    font-size: 48px;
+    color: aqua;
+} 
+.about{
+    color: aqua;
+}
+footer .footer_logo_link{
+    border: 3px greenyellow solid;
+}
+/* h2+img{
+    margin: 150px;
+}
+h5+img{
+    margin: 150px;
+}
+h6+img{
+    margin: 150px;
+} */
+
+.text__wrapper img+p {
+    margin-top: 100px;
+}
